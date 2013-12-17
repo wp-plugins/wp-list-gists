@@ -9,7 +9,7 @@ class wpListGists{
     // Set the text domain
     protected $plg_text_domain = 'wp_list_gists';
     // Set the Plugin Version
-    protected $plg_version     = '1.1.0';
+    protected $plg_version     = '1.1.1';
     // Set the Plugin URL
     protected $plg_website     = 'https://github.com/sdellow/WP-List-Gists';
 
