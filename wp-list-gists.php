@@ -3,7 +3,7 @@
 /*
 Plugin Name: WP List Gists
 Plugin URI: https://github.com/wp-lists-gists
-Version: 1.2.0
+Version: 1.2.1
 Description: Lists all Gists in your Posts and Pages from a given username and allows you to add them to your content in a shortcode form. The shortcode is also available for any other Github Gists, just supply a ID and User.
 Author: Stew Dellow
 Author URI: https://hellostew.com
