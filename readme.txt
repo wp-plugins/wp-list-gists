@@ -4,7 +4,7 @@ Donate link: https://hellostew.com
 Tags: github, gists, get gists, list gists, dynamic
 Requires at least: 3.8
 Tested up to: 4.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,10 +25,14 @@ WP List Gists allows you to dynamically display Gists from any user in any post/
 
 == Changelog ==
 
+= 1.2.1 =
+* Fixed issue with possible duplicate activation class.
 = 1.2.0 =
 * Completely rewritten and improved.
 
 == Upgrade Notice ==
 
+= 1.2.1 =
+* Bug fixes.
 = 1.2.0 =
 * Fixes, improvements and generally more stable.

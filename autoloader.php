@@ -25,12 +25,21 @@ class WPLG_Autoloader{
      * @version 1.0.0
     **/
     static public function loader($class){
+        // Get software.
+        $software = strtolower($_SERVER['SERVER_SOFTWARE']);
         // Check namespace.
         if(strpos($class, 'WPLG\\') === false) return;
-        // File name.
+        // Set file name.
         $file_name = str_replace('\\', DIRECTORY_SEPARATOR, strtolower($class) . '.php');
         // Include file.
-        include(str_replace('wplg/', '', $file_name));
+        if(strpos($software, 'microsoft-iis') !== false){
+            // This is an IIS server so fix paths.
+            include(str_replace('wplg\\', '', $file_name));
+        }
+        else{
+            // This is probably an Apache / Nginx server.
+            include(str_replace('wplg/', '', $file_name));
+        }
     }
 }
 

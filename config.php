@@ -15,7 +15,7 @@ if(!empty($_SERVER['SCRIPT_FILENAME']) && basename(__FILE__) == basename($_SERVE
 }
 
 // Plugin version.
-define('WPLG_PLG_VERSION', '1.2.0');
+define('WPLG_PLG_VERSION', '1.2.1');
 // Plugin name.
 define('WPLG_PLG_NAME', 'WP List Gists');
 // Plugin directory.
